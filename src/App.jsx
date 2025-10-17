@@ -1,7 +1,7 @@
 import { BrowserRouter,Routes,Route,Navigate } from "react-router-dom";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
-import AllTodo from "./components/allTodo";
+import AllTodo from "./components/AllTodo";
 
 function App(){
     return(
