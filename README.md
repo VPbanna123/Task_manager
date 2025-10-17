@@ -11,7 +11,7 @@ Easily add, edit, and manage your daily tasks with a clean and responsive interf
 ---
 
 ## 🌐 Live Demo
-👉 [**View App**](#) — *(Add your deployed link here)*
+👉 [**View App**](#) — *https://task-manager-git-master-vijaypal-singh-rathores-projects.vercel.app/allTodo*
 
 ---
 
@@ -50,17 +50,28 @@ Enable Email/Password Authentication
 
 Create a Firestore Database
 
-Copy your Firebase config (from Project Settings → Web App)
+### Firebase Configuration
 
-Create a .env file in your project root:
-copy below variable and save it in env
+1. **Copy your Firebase config**  
+   Go to **Firebase Console → Project Settings → Web App** and copy the configuration details.
+
+2. **Create a `.env` file**  
+   In the **root of your project**, create a file named `.env`.
+
+3. **Add the following variables** to `.env` (replace the values with your Firebase config):
+
+```env
 VITE_FIREBASE_API_KEY=your_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
 VITE_FIREBASE_PROJECT_ID=your_project_id
 VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
 VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
-⚠️ Note: Don’t commit your .env file to GitHub.
 
+⚠️ Note: Don’t commit your .env file to GitHub.
+```
 4️⃣ Run the App
+```
+npm install
 npm run dev
+```
