@@ -1,8 +1,66 @@
-# React + Vite
+# 🚀 Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, real-time **Task Management App** built with **React**, **Firebase**, and **Tailwind CSS**.  
+Easily add, edit, and manage your daily tasks with a clean and responsive interface.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18.x-blue)
+![Firebase](https://img.shields.io/badge/Firebase-Latest-orange)
+![Tailwind](https://img.shields.io/badge/Tailwind-3.x-38bdf8)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🌐 Live Demo
+👉 [**View App**](#) — *(Add your deployed link here)*
+
+---
+
+## ✨ Features
+- 🔐 Secure Firebase Authentication  
+- 🧾 Add, edit, delete, and mark tasks as complete  
+- ⚡ Real-time data sync with Firestore  
+- 📱 Fully responsive on all devices  
+- ☁️ User-specific data storage  
+- 💾 Persistent cloud data  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS  
+- **Backend:** Firebase (Auth, Firestore, Hosting)  
+- **Language:** JavaScript (ES6+)  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+git clone https://github.com/your-username/task-manager-app.git
+cd task-manager-app
+2️⃣ Install Dependencies
+npm install
+# or
+yarn install
+3️⃣ Firebase Setup
+Go to Firebase Console
+
+Create a new project
+
+Enable Email/Password Authentication
+
+Create a Firestore Database
+
+Copy your Firebase config (from Project Settings → Web App)
+
+Create a .env file in your project root:
+copy below variable and save it in env
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+⚠️ Note: Don’t commit your .env file to GitHub.
+
+4️⃣ Run the App
+npm run dev
